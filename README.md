@@ -3,12 +3,27 @@
 
 <h3 align="center">NetworkWalks Internship</h3>
 
+
+## Practical Implementation
+
+### 1. Johnny Installation
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Internship-NetworkWalks-blue">
-  <img src="https://img.shields.io/badge/Week-03-green">
-  <img src="https://img.shields.io/badge/Domain-Cybersecurity-red">
-  <img src="https://img.shields.io/badge/Status-Completed-success">
+  <img src="./Screenshot%202026-11-21%20192831.png" width="90%">
 </p>
+
+### 2. NetworkWalks – Hash Extraction & Password Recovery
+
+<p align="center">
+  <img src="./Screenshot_2026-11-20_23_40_15.png" width="90%">
+</p>
+
+### 3. Final Password Recovery & PDF Verification
+
+<p align="center">
+  <img src="./Screenshot_2026-11-20_23_50_05.png" width="90%">
+</p>
+
 
 ---
 
