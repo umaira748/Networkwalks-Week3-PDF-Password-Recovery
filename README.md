@@ -1,12 +1,7 @@
-# Week 3 – PDF Password Recovery
 
-<p align="center">
-  <img src="week3-pdf-password-recovery.png" alt="PDF Password Recovery Practical Task" width="900">
-</p>
+<h1 align="center"> PDF Password Recovery</h1>
 
-<h1 align="center">PDF Password Recovery</h1>
-
-<h3 align="center">NetworkWalks Internship – Week 3</h3>
+<h3 align="center">NetworkWalks Internship</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Internship-NetworkWalks-blue">
@@ -15,76 +10,95 @@
   <img src="https://img.shields.io/badge/Status-Completed-success">
 </p>
 
+---
+
 ## Overview
 
-This repository documents my Week 3 practical task during the NetworkWalks internship, focused on recovering the password of a protected PDF file using two different password-recovery approaches.
+This repository documents my Week 3 internship task, focused on recovering the password of a protected PDF file using two different approaches.
 
-The task involved extracting the PDF hash, using John the Ripper for password recovery, and repeating the process through the NetworkWalks Online Password Cracker.
+The task involved extracting PDF hashes, performing password recovery with John the Ripper, and repeating the process using the NetworkWalks Online Password Cracker.
 
-Both approaches were successfully performed, and the recovered password was verified by opening the protected PDF file.
+Both approaches were successfully completed, and the recovered password was verified by opening the protected PDF.
 
-## Tools & Technologies
+## Tools Used
 
-- **Kali Linux**
-- **John the Ripper (John)**
-- **NetworkWalks Online Password Cracker**
-- **Online PDF Hash Extraction Tool**
-- **PDF Document**
+- Kali Linux
+- John the Ripper (Johnny GUI)
+- NetworkWalks Online Password Cracker
+- Online PDF Hash Extraction Tool
 
-## Objectives
+## Practical Implementation
 
-- Understand the concept of PDF password protection.
-- Learn about password hashes and hash extraction.
-- Gain practical experience with John the Ripper.
-- Explore NetworkWalks' online password-cracking tool.
-- Compare two different password-recovery workflows.
-- Verify the recovered password by opening the protected PDF.
+### 1. Hash Extraction & John the Ripper
 
-## Practical Workflow
+Extracted the password hash from the protected PDF and prepared it for password recovery using John the Ripper.
 
-### Approach 1: Using John the Ripper
+<p align="center">
+  <img src="./images/johnny-hash-extraction.png" width="90%">
+</p>
 
-1. Prepared a password-protected PDF file.
-2. Extracted its password hash.
-3. Used John the Ripper to perform password recovery.
-4. Successfully recovered the PDF password.
-5. Verified the result by opening the protected PDF.
+### 2. Password Recovery Using John the Ripper
 
-### Approach 2: Using NetworkWalks Tool
+Performed password recovery using John the Ripper and successfully identified the PDF password.
 
-1. Uploaded the test PDF to the NetworkWalks password-cracking tool.
-2. Extracted the PDF hash using the provided functionality.
-3. Performed password recovery through the tool.
-4. Successfully obtained the password.
-5. Used the recovered password to open the PDF file.
+<p align="center">
+  <img src="./images/johnny-password-recovery.png" width="90%">
+</p>
 
-## Results
+### 3. PDF Hash Extraction Using NetworkWalks Tool
 
-Both approaches successfully recovered the password of the test PDF.
+Used the NetworkWalks-supported online hash extraction workflow to obtain the PDF hash.
 
-This practical exercise demonstrated how different tools can be used to approach the same password-recovery task.
+<p align="center">
+  <img src="./images/networkwalks-hash-extraction.png" width="90%">
+</p>
+
+### 4. Password Recovery Using NetworkWalks Tool
+
+Submitted the extracted hash to the NetworkWalks Online Password Cracker and successfully recovered the password.
+
+<p align="center">
+  <img src="./images/networkwalks-password-recovery.png" width="90%">
+</p>
+
+### 5. Final Verification
+
+Used the recovered password to open the protected PDF file and verified the successful result.
+
+<p align="center">
+  <img src="./images/pdf-opened-successfully.png" width="90%">
+</p>
+
+---
 
 ## Key Learning Outcomes
 
-- Understanding PDF password protection.
-- Introduction to PDF password hashes.
-- Practical exposure to John the Ripper.
-- Hands-on experience with online password-recovery tools.
-- Understanding different password-recovery workflows.
-- Verifying results through practical testing.
+- Understanding PDF password protection and hashing.
+- Practical experience with hash extraction.
+- Hands-on usage of John the Ripper.
+- Experience with online password-recovery tools.
+- Comparing two different password-recovery approaches.
+- Verifying password recovery results.
 
-## Ethical Use & Disclaimer
+## Conclusion
 
-This exercise was performed for educational purposes using a test PDF file that I was authorized to access.
+Successfully completed the PDF password recovery task using two different tools and verified the results.
 
-Password-recovery techniques should only be used on files and systems that you own or have explicit permission to test.
+This exercise strengthened my practical understanding of password hashing, hash extraction, and password-recovery techniques.
 
-Always respect privacy, follow applicable laws, and use cybersecurity knowledge responsibly.
+## Ethical Use
+
+This task was performed for educational purposes using an authorized test PDF. Password-recovery techniques should only be applied to files for which proper authorization has been granted.
+
+---
+
 
 ## Author
 
 **Umaira Asghar**
 
+
+**Linkedin:https://www.linkedin.com/in/umaira-asghar-825894371**
 
 ## Acknowledgment
 
